@@ -535,8 +535,10 @@ section {
   grid-template-columns: minmax(220px, 0.44fr) minmax(0, 1fr);
   gap: clamp(30px, 7vw, 100px);
   align-items: start;
-  background: var(--leaf);
-  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 16%, rgba(197, 155, 70, 0.18), transparent 30%),
+    linear-gradient(135deg, #101a0b 0%, #263016 52%, #12170c 100%);
+  color: var(--paper);
 }
 
 .manifesto-pin {
@@ -544,10 +546,12 @@ section {
   top: 132px;
   display: grid;
   gap: 20px;
+  color: var(--gold);
 }
 
 .manifesto-pin strong {
   max-width: 260px;
+  color: #f7eed7;
   font-size: 26px;
   font-weight: 950;
   line-height: 1;
@@ -560,12 +564,14 @@ section {
 }
 
 .manifesto-list p {
-  border-bottom: 4px solid var(--ink);
+  border-bottom: 3px solid rgba(197, 155, 70, 0.54);
   padding-bottom: clamp(18px, 3vw, 32px);
+  color: #f7eed7;
   font-size: clamp(42px, 8.4vw, 132px);
   font-weight: 950;
   line-height: 0.86;
   text-transform: uppercase;
+  text-shadow: 0 18px 52px rgba(0, 0, 0, 0.32);
 }
 
 .venues {
