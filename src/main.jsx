@@ -30,7 +30,7 @@ import './styles.css';
 const images = {
   logo: '/images/logo.png',
   facade: '/images/side-evening.png',
-  aerial: '/images/front-wide.png',
+  aerial: '/images/side-evening.png',
   banquet: '/images/big-banquet.png',
   bar: '/images/bar.png',
   food: '/images/food.png',
@@ -119,7 +119,6 @@ const gallery = [
   { image: images.facade, title: 'Illuminated facade', area: 'Arrival' },
   { image: images.aerial, title: 'Garden court', area: 'Exterior' },
   { image: images.banquet, title: 'Grand banquet', area: 'Events' },
-  { image: images.lobby1, title: 'Royal lobby', area: 'Interior' },
   { image: images.lobby2, title: 'Marble gallery', area: 'Interior' },
   { image: images.lobby3, title: 'Salon corridor', area: 'Interior' },
   { image: images.bar, title: 'Bar lounge', area: 'Dining' },
